@@ -35,10 +35,10 @@ public class ProviderController1 {
 	model.addAttribute("adresselVariableHtml", adresse);
 	
 	List<String> names =new ArrayList<>();
-	names.add("Aymen");
-	names.add("sami");
-	names.add("ali");
-	names.add("kamel");
+	names.add("Aymen from controller");
+	names.add("sami from controller");
+	names.add("ali from controller");
+	names.add("kamel from controller");
 	model.addAttribute("names",names);
 		
 		return "data.html";
